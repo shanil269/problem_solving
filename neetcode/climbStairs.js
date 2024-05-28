@@ -8,6 +8,9 @@ var climbStairs = function (n) {
 
 console.log(climbStairs(5));
 
+//binet formula for fibonacci series
+// F(n) = 1/sqrt(5)[{(1+sqrt(5))/2}pow(n)- {(1-sqrt(5))/2}pow(n)]
+
 var climbStairs = function (n, sqrt5 = Math.sqrt(5)) {
     const phi = ((sqrt5 + 1) / 2);
     const psi = ((sqrt5 - 1) / 2);
